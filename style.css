@@ -1,0 +1,141 @@
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:90%;
+	margin: -1px;
+	padding: 0px;
+	text-align: justify; 
+}
+
+.body {
+	background-image: url(images/design/Page-Background-Tile.gif);
+	background-repeat: repeat-x;
+	background-color: #008800;
+}
+
+.body_p {
+	background-color: #FFFFFF;
+}
+
+
+h1 {
+	font-size: 100%;
+	font-weight: bold;
+	display: inline;
+}
+
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+ul {
+	margin-top: 10px;
+	list-style-position: outside;
+	list-style-type: disc;
+}
+
+li {
+	margin-left: -23px;
+	padding-bottom: 5px;
+}
+
+/* Sentrer box */
+#Page{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Page_P{
+	width: 900px;
+}
+
+#Top{
+	width: 100%;
+	height: 191px;
+	background:url(images/design/Top.gif);
+	background-repeat:no-repeat;	
+}
+
+#Top_P{
+	width: 100%;
+	height: 10px;
+}
+
+#Bottom{
+	width: 100%;
+	height: 144px;
+}
+
+#Bottom_P{
+	width: 100%;
+	height: 30px;
+}
+
+#Main{
+	width: 100%;
+	background:url(images/design/Table-Background-Tile.gif);
+	overflow: hidden;
+}
+
+#Main_P{
+	width: 100%;
+	overflow: hidden;
+}
+
+.Header{
+	font-size: 170%;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	width: 630px;
+}
+
+
+.ContentColumn{
+	float: left;
+	width:307px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.ContentColumnFull{
+	float: left;
+	width:614px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#Meny{
+	width: 232px;
+	height: 530px;
+	float:left;
+	background:url(images/design/Left-Menu.gif);
+	background-repeat:no-repeat;
+
+	font-size: 18px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-decoration: none;
+}
+
+
+#Meny a{
+	color: #ffe600;
+	text-decoration:none;
+}
+
+#Meny a:hover{
+	color: #FFF495;
+
+}
+
+.vedtekter {
+	text-indent: 10px;
+}

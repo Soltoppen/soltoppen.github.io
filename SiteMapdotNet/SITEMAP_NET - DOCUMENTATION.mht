@@ -1,0 +1,738 @@
+From: <Saved by Microsoft Internet Explorer 5>
+Subject: SITEMAP.NET - DOCUMENTATION
+Date: Thu, 10 Nov 2005 01:39:11 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C5E597.8CCC7880"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2670
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C5E597.8CCC7880
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sitemap.chinookwebs.com/docs.htm
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>SITEMAP.NET - DOCUMENTATION</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><LINK=20
+href=3D"http://sitemap.chinookwebs.com/styles.css" type=3Dtext/css =
+rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.2900.2769" name=3DGENERATOR></HEAD>
+<BODY bgColor=3D#ffffff>
+<TABLE height=3D"100%" cellSpacing=3D0 cellPadding=3D0 width=3D"100%" =
+border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop align=3Dmiddle>
+      <TABLE cellSpacing=3D0 cellPadding=3D5 width=3D780 border=3D0>
+        <TBODY>
+        <TR>
+          <TD colSpan=3D3>
+            <H2>SITEMAP.NET - DOCUMENTATION</H2></TD></TR>
+        <TR>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D120>
+            <TABLE=20
+            style=3D"BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: =
+#cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: =
+#cccccc 1px solid"=20
+            cellSpacing=3D0 cellPadding=3D2 width=3D110 border=3D0>
+              <TBODY>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A=20
+                  =
+href=3D"http://sitemap.chinookwebs.com/">Home</A></TD></TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A=20
+                  =
+href=3D"http://sitemap.chinookwebs.com/download/sitemapdotnet.zip">Downlo=
+ad</A></TD></TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A=20
+                  =
+href=3D"http://sitemap.chinookwebs.com/docs.htm">Documentation</A></TD></=
+TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A=20
+                  =
+href=3D"http://forum.chinookwebs.com/forum/default.aspx?f=3D28">Forums</A=
+></TD></TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A=20
+                  =
+href=3D"http://sitemap.chinookwebs.com/version_info.htm">Version=20
+                  Info</A></TD></TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0>
+                  <SCRIPT language=3DJavaScript type=3Dtext/javascript>
+									<!--
+									user=3D'sitemapdotnet'
+									site=3D'chinookwebs.com'
+									document.write('<a href=3D\"mailto:' + user + '@' + site + =
+'\">');
+									document.write('Contact</a>');
+									// -->
+								</SCRIPT>
+                </TD></TR>
+              <TR>
+                <TD bgColor=3D#f0f0f0><A =
+href=3D"http://www.chinookwebs.com/"=20
+                  target=3D_blank>Chinook =
+Webs</A></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D530>
+            <TABLE cellSpacing=3D0 cellPadding=3D2 width=3D520 =
+border=3D0>
+              <TBODY>
+              <TR>
+                <TD>
+                  <P><STRONG>SITEMAP.NET Version 0.5.2 BETA - June 14,=20
+                  2005</STRONG></P>
+                  <P>SITEMAP.NET is intended for users who have an =
+intermediate=20
+                  to advanced understanding of their website and the =
+server it=20
+                  is on.</P>
+                  <OL>
+                    <LI><A=20
+                    =
+href=3D"http://sitemap.chinookwebs.com/download/sitemapdotnet.zip">Downlo=
+ad=20
+                    SITEMAP.NET Here</A>=20
+                    <LI>Save the zip file to a conveniant location on =
+your=20
+                    computer.=20
+                    <LI>Extract the files to the root directory of your =
+website=20
+                    on your computer.<BR><U>For Example:</U><BR>If your =
+local=20
+                    website folder is c:\websites\example.com\ then =
+extract the=20
+                    files to that folder.=20
+                    <P></P>
+                    <LI>Open the SiteMap.Config file in the =
+SiteMapdotNet folder=20
+                    using Notepad or a similar text editor. Complete the =
+
+                    following steps to configure SITEMAP.NET:=20
+                    <UL>
+                      <LI><EM>base_path</EM> - This is the web path to =
+the=20
+                      folder you want SITEMAP.NET to crawl. By leaving =
+it at the=20
+                      default "/" it will crawl your entire website.=20
+                      <LI><EM>sitemap_path</EM> - This is the web path =
+to the=20
+                      folder you want to <EM>save </EM>your sitemap file =
+too. By=20
+                      leaving it empty it will save the sitemap file to =
+the=20
+                      location of the <EM>base_path</EM>. <STRONG>If you =
+do not=20
+                      use your base_path as the location for your =
+sitemap make=20
+                      sure you copy it to that location before =
+submitting to=20
+                      Google otherwise some pages may be considered=20
+                      invalid.</STRONG>=20
+                      <LI><EM>extensions</EM> - This lists the file =
+extensions=20
+                      included in the sitemap, to add additional =
+extensions=20
+                      enter them in the format=20
+                      "...&lt;extension&gt;<STRONG>,&lt;new=20
+                      extension&gt;</STRONG>" This format is a comma =
+delimited=20
+                      list with no spaces.=20
+                      <LI><EM>default_file</EM> - Future addition.=20
+                      <LI><EM>frontpage</EM> - Use to ignore FrontPage =
+extension=20
+                      folders on the server. Set the ignore attribute to =
+false=20
+                      to include these folders.=20
+                      <LI><EM>aspnet_client</EM> - Use to ignore ASPNET =
+Client=20
+                      folder, set ignore attribute to false to include =
+these=20
+                      folders.=20
+                      <LI><EM>directories</EM> - This is a list of =
+directories=20
+                      that SITEMAP.NET will ignore. This is useful to =
+eliminate=20
+                      any administration or include folders you do not =
+want=20
+                      included. You can include all directories by =
+setting the=20
+                      include attribute to false, otherwise it will =
+exclude all=20
+                      folders listed. To add additional directories =
+enter them=20
+                      in the format =
+"...&lt;directory&gt;<STRONG>,&lt;new=20
+                      directory&gt;</STRONG>" This format is a comma =
+delimited=20
+                      list with no spaces.=20
+                      <LI><EM>log_directory</EM> - This lists the =
+directory in=20
+                      which all of the log files are stored. You can =
+include the=20
+                      log files by setting the include attribute to =
+true,=20
+                      otherwise set it to false to exclude. The=20
+                      full_logical_path attribute is for when you know =
+the=20
+                      actual disk logical path to the log folder (For =
+Example:=20
+                      c:\logfiles\w3svc1) otherwise enter in the partial =
+address=20
+                      to the log files (For Example: logfiles\w3svc1) =
+and set=20
+                      the full_logical_path to false. SITEMAP.NET will =
+only=20
+                      parse through W3C format logs at this point.=20
+                      <LI><EM>permissions</EM> - Enter in the FTP =
+username and=20
+                      password attached to your web account, this will =
+allow=20
+                      SITEMAPS.NET to write the file and look in all of =
+your=20
+                      folders for your log files. <STRONG>NOTE: If =
+ASP.Net is=20
+                      not enabled for your web account this information =
+is=20
+                      visible to regular web users, with ASP.NET enabled =
+it is=20
+                      not visible in most cases.</STRONG>=20
+                      <LI><EM>defaults</EM> - Set the default change =
+frequency=20
+                      and priority to be sent to Google.=20
+                      <UL>
+                        <LI>changefreq - Use one of the following: =
+always,=20
+                        hourly, daily, weekly, monthly, yearly=20
+                        <LI>priority - Use a number between 0.0 and 1.0, =
+note=20
+                        this does not change how Google will rank you.=20
+                      </LI></UL></LI></UL>
+                    <LI>Open your FTP application and upload the "bin" =
+and=20
+                    "sitemapdotnet" folders from your local website =
+folder to=20
+                    your web server.=20
+                    <LI>Open your browser and navigate to your the=20
+                    "sitemapdotnet/runme.aspx" page on your website.=20
+                    <STRONG></STRONG>For Example:=20
+                    http://www.example.com/sitemapdotnet/runme.aspx=20
+                    <STRONG>Note: The runme page may take awhile to load =
+
+                    depending on the number of pages and the number of =
+log files=20
+                    to open. </STRONG>
+                    <LI>Submit the sitemap to <A=20
+                    =
+href=3D"http://www.google.com/webmasters/sitemaps/login">Google=20
+                    Sitemaps</A>. </LI></OL>
+                  <P>If you have problems or questions the quickest way =
+to get=20
+                  answers is to use our <A=20
+                  =
+href=3D"http://forum.chinookwebs.com/forum/default.aspx?f=3D28">online=20
+                  forums</A>. We will do what we can to respond as =
+quickly as=20
+                  possible! Best of luck!</P>
+                  <P=20
+                  style=3D"BORDER-RIGHT: #993333 1px dotted; =
+PADDING-RIGHT: 5px; BORDER-TOP: #993333 1px dotted; PADDING-LEFT: 5px; =
+PADDING-BOTTOM: 5px; BORDER-LEFT: #993333 1px dotted; PADDING-TOP: 5px; =
+BORDER-BOTTOM: #993333 1px dotted; BACKGROUND-COLOR: =
+#fff0f0"><STRONG>Obligatory=20
+                  Warning!</STRONG> Users downloading and using this =
+tool do so=20
+                  entirely at their own risk. Chinook Webs cannot be =
+held liable=20
+                  or responsible in any way for any issues arising from =
+the use=20
+                  of this tool.</P>
+                  <P>Be nice check out our hosting plans at <A=20
+                  href=3D"http://www.chinookwebs.com/" =
+target=3D_blank>Chinook=20
+                  Webs</A>. </P></TD></TR></TBODY></TABLE></TD>
+          <TD vAlign=3Dtop align=3Dmiddle width=3D130>
+            <SCRIPT type=3Dtext/javascript><!--
+google_ad_client =3D "pub-7794239431639542";
+google_ad_width =3D 120;
+google_ad_height =3D 600;
+google_ad_format =3D "120x600_as";
+google_color_border =3D "2D5893";
+google_color_bg =3D "FFFFFF";
+google_color_link =3D "000000";
+google_color_url =3D "000099";
+google_color_text =3D "003366";
+//--></SCRIPT>
+
+            <SCRIPT=20
+            =
+src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js"=20
+            type=3Dtext/javascript>
+</SCRIPT>
+          =
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01C5E597.8CCC7880
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sitemap.chinookwebs.com/styles.css
+
+TD {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 1.5em; FONT-FAMILY: =
+Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 1.5em; FONT-FAMILY: =
+Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+DIV {
+	FONT-SIZE: x-small; COLOR: #333333; LINE-HEIGHT: 1.5em; FONT-FAMILY: =
+Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	MARGIN-BOTTOM: 3px; WIDTH: 100%; BORDER-BOTTOM: #333333 2px solid
+}
+A {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #333399
+}
+
+------=_NextPart_000_0000_01C5E597.8CCC7880
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+(function(){=0A=
+// NOTE: This file is intended to be compiled with JSCompiler. If you are=0A=
+// getting a compiler error when using a JavaScript built-in, please =
+update=0A=
+// google3/contentads/frontend/externs.js=0A=
+=0A=
+function quoted(str) {=0A=
+  return (str !=3D null) ? '"' + str + '"' : '""';=0A=
+}=0A=
+=0A=
+function google_encodeURIComponent(str) {=0A=
+  if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+    return encodeURIComponent(str);=0A=
+  } else {=0A=
+    return escape(str);=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_write_tracker(d, ad_url, tracker_event) {=0A=
+  var qloc =3D ad_url.indexOf('?');=0A=
+  var img_src =3D =
+'http://pagead2.googlesyndication.com/pagead/imp.gif?event=3D';=0A=
+  img_src +=3D tracker_event;=0A=
+  if (qloc !=3D -1 && qloc + 1 < ad_url.length) {=0A=
+    img_src +=3D '&' + ad_url.substring(qloc + 1);=0A=
+  }=0A=
+  var img_tag =3D '<img height=3D"1" width=3D"1" border=3D"0" ' +=0A=
+                'src=3D' + quoted(img_src) +=0A=
+                ' />';=0A=
+  d.write(img_tag);=0A=
+}=0A=
+=0A=
+function google_append_url(param, value) {=0A=
+  if (value) {=0A=
+    window.google_ad_url +=3D '&' + param + '=3D' + value;=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_append_url_esc(param, value) {=0A=
+  if (value) {=0A=
+    google_append_url(param, google_encodeURIComponent(value));=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_append_color(param, value, random) {=0A=
+  if (value && typeof(value) =3D=3D 'object') {=0A=
+    value =3D value[random % value.length];=0A=
+  }=0A=
+  google_append_url('color_' + param, value);=0A=
+}=0A=
+=0A=
+function google_get_user_data(w, date) {=0A=
+  var screen =3D w.screen;=0A=
+  var javaEnabled =3D navigator.javaEnabled();=0A=
+  var tz =3D -date.getTimezoneOffset();=0A=
+=0A=
+  if (screen) {=0A=
+    google_append_url("u_h", screen.height);=0A=
+    google_append_url("u_w", screen.width);=0A=
+    google_append_url("u_ah", screen.availHeight);=0A=
+    google_append_url("u_aw", screen.availWidth);=0A=
+    google_append_url("u_cd", screen.colorDepth);=0A=
+  }=0A=
+=0A=
+  google_append_url("u_tz", tz);=0A=
+  google_append_url("u_his", history.length);=0A=
+  google_append_url("u_java", javaEnabled);=0A=
+=0A=
+  if (navigator.plugins) {=0A=
+    google_append_url("u_nplug", navigator.plugins.length);=0A=
+  }=0A=
+  if (navigator.mimeTypes) {=0A=
+    google_append_url("u_nmime", navigator.mimeTypes.length);=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_modify_client(client) {=0A=
+  client =3D client.toLowerCase();=0A=
+  if (client.substring(0, 3) !=3D 'ca-') {=0A=
+     client =3D 'ca-' + client;=0A=
+  }=0A=
+  return client;=0A=
+}=0A=
+=0A=
+function google_write_iframe(w, d, ad_url) {=0A=
+  ad_url =3D ad_url.substring(0, 1000);=0A=
+  ad_url =3D ad_url.replace(/%\w?$/, '');=0A=
+=0A=
+  if (w.google_ad_output =3D=3D 'js' &&=0A=
+      (w.google_ad_request_done || w.google_radlink_request_done)) {=0A=
+    d.write('<script language=3D"JavaScript1.1"' +=0A=
+            ' src=3D' + quoted(ad_url) + '></' + 'script>');=0A=
+  } else if (w.google_ad_output =3D=3D 'html') {=0A=
+    if (w.name =3D=3D 'google_ads_frame') {=0A=
+      google_write_tracker(d, ad_url, 'reboundredirect');=0A=
+    } else {=0A=
+      d.write('<iframe' +=0A=
+              ' name=3D"google_ads_frame"' +=0A=
+              ' width=3D' + quoted(w.google_ad_width) +=0A=
+              ' height=3D' + quoted(w.google_ad_height) +=0A=
+              ' frameborder=3D' + quoted(w.google_ad_frameborder) +=0A=
+              ' src=3D' + quoted(ad_url) +=0A=
+              ' marginwidth=3D"0"' +=0A=
+              ' marginheight=3D"0"' +=0A=
+              ' vspace=3D"0"' +=0A=
+              ' hspace=3D"0"' +=0A=
+              ' allowtransparency=3D"true"' +=0A=
+              ' scrolling=3D"no">');=0A=
+      google_write_tracker(d, ad_url, 'noiframe');=0A=
+      d.write('</iframe>');=0A=
+    }=0A=
+  }=0A=
+}=0A=
+=0A=
+function google_reset_variables(w) {=0A=
+  var nullvalue =3D null;=0A=
+  w.google_ad_frameborder =3D nullvalue;=0A=
+  w.google_ad_format =3D nullvalue;=0A=
+  w.google_page_url =3D nullvalue;=0A=
+  w.google_language =3D nullvalue;=0A=
+  w.google_gl =3D nullvalue;=0A=
+  w.google_country =3D nullvalue;=0A=
+  w.google_region =3D nullvalue;=0A=
+  w.google_city =3D nullvalue;=0A=
+  w.google_hints =3D nullvalue;=0A=
+  w.google_safe =3D nullvalue;=0A=
+  w.google_encoding =3D nullvalue;=0A=
+  w.google_ad_output =3D nullvalue;=0A=
+  w.google_max_num_ads =3D nullvalue;=0A=
+  w.google_ad_channel =3D nullvalue;=0A=
+  w.google_contents =3D nullvalue;=0A=
+  w.google_alternate_ad_url =3D nullvalue;=0A=
+  w.google_alternate_color =3D nullvalue;=0A=
+  w.google_color_bg =3D nullvalue;=0A=
+  w.google_color_text =3D nullvalue;=0A=
+  w.google_color_link =3D nullvalue;=0A=
+  w.google_color_url =3D nullvalue;=0A=
+  w.google_color_border =3D nullvalue;=0A=
+  w.google_color_line =3D nullvalue;=0A=
+  w.google_adtest =3D nullvalue;=0A=
+  w.google_kw_type =3D nullvalue;=0A=
+  w.google_kw =3D nullvalue;=0A=
+  w.google_num_radlinks =3D nullvalue;=0A=
+  w.google_max_radlink_len =3D nullvalue;=0A=
+  w.google_rl_filtering =3D nullvalue;=0A=
+  w.google_rl_mode =3D nullvalue;=0A=
+  w.google_rt =3D nullvalue;=0A=
+  w.google_ad_type =3D nullvalue;=0A=
+  w.google_image_size =3D nullvalue;=0A=
+  w.google_feedback =3D nullvalue;=0A=
+  w.google_skip =3D nullvalue;=0A=
+  w.google_page_location =3D nullvalue;=0A=
+  w.google_referrer_url =3D nullvalue;=0A=
+  w.google_ad_region =3D nullvalue;=0A=
+  w.google_ad_section =3D nullvalue;=0A=
+  w.google_bid =3D nullvalue;=0A=
+  w.google_cpa_choice =3D nullvalue;=0A=
+}=0A=
+=0A=
+function google_show_ad() {=0A=
+  var nullvalue =3D null;=0A=
+  var w =3D window;=0A=
+  var d =3D document;=0A=
+  var date =3D new Date();=0A=
+  var random =3D date.getTime();=0A=
+  var format =3D w.google_ad_format;=0A=
+=0A=
+  if (w.google_cpa_choice) {=0A=
+    w.google_ad_url =3D 'http://pagead2.googlesyndication.com/cpa/ads?';=0A=
+    w.google_ad_url +=3D 'client=3D' + =0A=
+                       escape(google_modify_client(w.google_ad_client));=0A=
+=0A=
+    google_append_url('cpa_choice', w.google_cpa_choice);=0A=
+    google_append_url_esc('format', format.toLowerCase());=0A=
+=0A=
+    google_get_user_data(w, date);=0A=
+    google_write_iframe(w, d, w.google_ad_url);=0A=
+    google_reset_variables(w);=0A=
+    return;=0A=
+  } =0A=
+=0A=
+  var num_slots_by_client =3D w.google_num_slots_by_client;=0A=
+  var num_slots_by_channel =3D w.google_num_slots_by_channel;=0A=
+  var prev_ad_formats =3D w.google_prev_ad_formats_by_region;=0A=
+=0A=
+  w.onerror =3D w.google_org_error_handler;=0A=
+=0A=
+  if (w.google_ad_region =3D=3D nullvalue && w.google_ad_section !=3D =
+nullvalue) {=0A=
+    w.google_ad_region =3D w.google_ad_section;=0A=
+  }=0A=
+=0A=
+  var region =3D (w.google_ad_region =3D=3D nullvalue) ? '' : =
+w.google_ad_region;=0A=
+=0A=
+  var is_zero_ad_format =3D false;=0A=
+  if (format) {=0A=
+    is_zero_ad_format =3D ((format).indexOf('_0ads')) > 0;=0A=
+  }=0A=
+=0A=
+  if (is_zero_ad_format) {=0A=
+    if (w.google_num_0ad_slots) {=0A=
+      w.google_num_0ad_slots =3D w.google_num_0ad_slots + 1;=0A=
+    } else {=0A=
+      w.google_num_0ad_slots =3D 1;=0A=
+    }=0A=
+=0A=
+    if (w.google_num_0ad_slots > 1) {=0A=
+      return;=0A=
+    }=0A=
+  } else {=0A=
+    if (w.google_num_ad_slots) {=0A=
+      w.google_num_ad_slots =3D w.google_num_ad_slots + 1;=0A=
+    } else {=0A=
+      w.google_num_ad_slots =3D 1;=0A=
+    }=0A=
+=0A=
+    if (w.google_num_slots_to_rotate) {=0A=
+      prev_ad_formats[region] =3D nullvalue;=0A=
+      if (w.google_num_slot_to_show =3D=3D nullvalue) {=0A=
+        w.google_num_slot_to_show =3D random % =
+w.google_num_slots_to_rotate + 1;=0A=
+      }=0A=
+      if (w.google_num_slot_to_show !=3D w.google_num_ad_slots) {=0A=
+        return;=0A=
+      }=0A=
+    } else if (w.google_num_ad_slots > 3 && region =3D=3D '') {=0A=
+      return;=0A=
+    }=0A=
+  }=0A=
+=0A=
+  w.google_ad_url =3D 'http://pagead2.googlesyndication.com/pagead/ads?';=0A=
+  w.google_ad_url +=3D 'client=3D' + =0A=
+                     escape(google_modify_client(w.google_ad_client));=0A=
+  google_append_url('dt', date.getTime());=0A=
+  google_append_url('hl', w.google_language);=0A=
+  if (w.google_country) {=0A=
+    google_append_url('gl', w.google_country);=0A=
+  } else {=0A=
+    google_append_url('gl', w.google_gl);=0A=
+  }=0A=
+  google_append_url('gr', w.google_region);=0A=
+  google_append_url_esc('gcs', w.google_city);=0A=
+  google_append_url_esc('hints', w.google_hints);=0A=
+  google_append_url('adsafe', w.google_safe);=0A=
+  google_append_url('oe', w.google_encoding);=0A=
+  google_append_url('lmt', w.google_last_modified_time);=0A=
+  google_append_url_esc('alternate_ad_url', =0A=
+                                 w.google_alternate_ad_url);=0A=
+  google_append_url('alt_color', w.google_alternate_color);=0A=
+  google_append_url("skip", w.google_skip);=0A=
+=0A=
+  var client =3D w.google_ad_client;=0A=
+  if (!num_slots_by_client[client]) {=0A=
+    num_slots_by_client[client] =3D 1;=0A=
+    num_slots_by_client.length +=3D 1;=0A=
+  } else {=0A=
+    num_slots_by_client[client] +=3D 1;=0A=
+  }=0A=
+=0A=
+  if (prev_ad_formats[region]) {=0A=
+    google_append_url_esc('prev_fmts',=0A=
+                          prev_ad_formats[region].toLowerCase());=0A=
+    if (num_slots_by_client.length > 1) {=0A=
+      google_append_url('slot', num_slots_by_client[client]);=0A=
+    }=0A=
+  }=0A=
+=0A=
+  if (format) {=0A=
+    google_append_url_esc('format', format.toLowerCase());=0A=
+    if (prev_ad_formats[region]) {=0A=
+      prev_ad_formats[region] =3D prev_ad_formats[region] + ',' + format;=0A=
+    } else {=0A=
+      prev_ad_formats[region] =3D format;=0A=
+    }=0A=
+  }=0A=
+=0A=
+  google_append_url('num_ads', w.google_max_num_ads);=0A=
+  google_append_url('output', w.google_ad_output);=0A=
+  google_append_url('adtest', w.google_adtest);=0A=
+=0A=
+  if (w.google_ad_channel) {=0A=
+    var chnl =3D w.google_ad_channel.toLowerCase();=0A=
+    google_append_url_esc('channel', chnl);=0A=
+    var pv_ch =3D '';=0A=
+    var arr =3D chnl.split('+');=0A=
+    for (var i =3D 0; i < arr.length; i++) {=0A=
+      var ch =3D arr[i];=0A=
+      if (!num_slots_by_channel[ch]) {=0A=
+        num_slots_by_channel[ch] =3D 1;=0A=
+      } else {=0A=
+        pv_ch +=3D ch + '+';=0A=
+      }=0A=
+    }=0A=
+    google_append_url_esc('pv_ch', pv_ch);=0A=
+  }=0A=
+=0A=
+  google_append_url_esc('url', w.google_page_url);=0A=
+  google_append_color('bg', w.google_color_bg, random);=0A=
+  google_append_color('text', w.google_color_text, random);=0A=
+  google_append_color('link', w.google_color_link, random);=0A=
+  google_append_color('url', w.google_color_url, random);=0A=
+  google_append_color('border', w.google_color_border, random);=0A=
+  google_append_color('line', w.google_color_line, random);=0A=
+  google_append_url('kw_type', w.google_kw_type);=0A=
+  google_append_url_esc('kw', w.google_kw);=0A=
+  google_append_url_esc('contents', w.google_contents);=0A=
+  google_append_url('num_radlinks', w.google_num_radlinks);=0A=
+  google_append_url('max_radlink_len', =0A=
+                    w.google_max_radlink_len);=0A=
+  google_append_url('rl_filtering', w.google_rl_filtering);=0A=
+  google_append_url('rl_mode', w.google_rl_mode);=0A=
+  google_append_url('rt', w.google_rt);=0A=
+  google_append_url('ad_type', w.google_ad_type);=0A=
+  google_append_url('image_size', w.google_image_size);=0A=
+  google_append_url('region', w.google_ad_region);=0A=
+  google_append_url('feedback_link', w.google_feedback);=0A=
+  google_append_url_esc('ref', w.google_referrer_url);=0A=
+  google_append_url_esc('loc', w.google_page_location);=0A=
+  google_append_url('bid', w.google_bid);=0A=
+=0A=
+  if (google_onpage(w, d) && d.body) {=0A=
+    var scr_h =3D d.body.scrollHeight;=0A=
+    var clt_h =3D d.body.clientHeight;=0A=
+    if (clt_h && scr_h) {=0A=
+      google_append_url_esc('cc', Math.round(clt_h * 100 / scr_h));=0A=
+    }=0A=
+  }=0A=
+=0A=
+  google_get_user_data(w, date);=0A=
+  google_write_iframe(w, d, w.google_ad_url);=0A=
+  google_reset_variables(w);=0A=
+}=0A=
+=0A=
+function google_error_handler(message, url, line) {=0A=
+  google_show_ad();=0A=
+  return true;=0A=
+}=0A=
+=0A=
+function google_onpage(w, d) {=0A=
+  return w.top.location =3D=3D d.location;=0A=
+}=0A=
+=0A=
+function google_in_adframe(w, d) {=0A=
+  var documentElement =3D d.documentElement;=0A=
+=0A=
+  if (google_onpage(w, d)) return false;=0A=
+=0A=
+  if (w.google_ad_width && w.google_ad_height) {=0A=
+    var wd =3D 1;=0A=
+    var ht =3D 1;=0A=
+    if (w.innerHeight) {=0A=
+      wd =3D w.innerWidth;=0A=
+      ht =3D w.innerHeight;=0A=
+    } else if (documentElement && documentElement.clientHeight) {=0A=
+      wd =3D documentElement.clientWidth;=0A=
+      ht =3D documentElement.clientHeight;=0A=
+    } else if (d.body) {=0A=
+      wd =3D d.body.clientWidth;=0A=
+      ht =3D d.body.clientHeight;=0A=
+    }=0A=
+=0A=
+    if (ht > 2 * w.google_ad_height || wd > 2 * w.google_ad_width) {=0A=
+      return false;=0A=
+    }=0A=
+  }=0A=
+=0A=
+  return true;=0A=
+}=0A=
+=0A=
+function google_init_globals() {=0A=
+  var w =3D window;=0A=
+  var d =3D document;=0A=
+  var location =3D d.location;=0A=
+  var referrer =3D d.referrer;=0A=
+  var nullvalue =3D null;=0A=
+=0A=
+  w.google_org_error_handler =3D w.onerror;=0A=
+  w.onerror =3D google_error_handler;=0A=
+=0A=
+  if (w.google_ad_frameborder =3D=3D nullvalue) {=0A=
+    w.google_ad_frameborder =3D 0;=0A=
+  }=0A=
+=0A=
+  if (w.google_ad_output =3D=3D nullvalue) {=0A=
+    w.google_ad_output =3D 'html';=0A=
+  }=0A=
+=0A=
+  if (w.google_ad_format =3D=3D nullvalue && w.google_ad_output =3D=3D =
+'html') {=0A=
+    w.google_ad_format =3D w.google_ad_width + 'x' + w.google_ad_height;=0A=
+  }=0A=
+=0A=
+  if (w.google_page_url =3D=3D nullvalue) {=0A=
+    w.google_page_url =3D referrer;=0A=
+    if (!google_in_adframe(w, d)) {=0A=
+      w.google_page_url =3D location;=0A=
+      w.google_last_modified_time =3D Date.parse(d.lastModified) / 1000;=0A=
+      w.google_referrer_url =3D referrer;=0A=
+    }=0A=
+  } else {=0A=
+    w.google_page_location =3D referrer;=0A=
+    if (!google_in_adframe(w, d)) {=0A=
+      w.google_page_location =3D location;=0A=
+    }=0A=
+  }=0A=
+=0A=
+  if (w.google_num_slots_by_channel =3D=3D nullvalue) {=0A=
+    w.google_num_slots_by_channel =3D new Array();=0A=
+  }=0A=
+=0A=
+  if (w.google_num_slots_by_client =3D=3D nullvalue) {=0A=
+    w.google_num_slots_by_client =3D new Array();=0A=
+  }=0A=
+=0A=
+  if (w.google_prev_ad_formats_by_region =3D=3D nullvalue) {=0A=
+    w.google_prev_ad_formats_by_region =3D new Array();=0A=
+  }=0A=
+} =0A=
+=0A=
+google_init_globals();=0A=
+google_show_ad();=0A=
+})()
+------=_NextPart_000_0000_01C5E597.8CCC7880--
