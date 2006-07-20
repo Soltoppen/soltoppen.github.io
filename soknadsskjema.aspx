@@ -1,6 +1,5 @@
-<!--#include file="inc_top_head.inc"-->
-<!--#include file="inc_top.inc"-->
-<!--#include file="inc_menu.inc"-->
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 			<div id="Header1" class="Header">S&oslash;knadsskjema</div>
 			<div id="ContentColumn1" class="ContentColumn">
@@ -33,5 +32,6 @@
 			<div id="ContentColumn2" class="ContentColumn">
 			 <img src="application/soknad.jpg" width="300" height="420" alt="S&oslash;knadsskjema" />
 			</div>
-    			
-<!--#include file="inc_bottom.inc"-->    			
+			
+</asp:Content>
+

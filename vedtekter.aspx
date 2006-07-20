@@ -1,3 +1,6 @@
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
 <div id="Header1" class="Header">Vedtekter</div>
 <div id="ContentColumn1" class="ContentColumnFull">
 <h1>Vedtekter for Soltoppen Barnehage AS</h1><br />
@@ -91,3 +94,6 @@ Styrer har ansvar for at denne f&oslash;lges og oppdateres.<br />
 Eierne kan forandre vedtektene, etter at forslaget er forelagt samarbeidsutvalget for uttalelse.<br />
 <br />
 </div>
+
+</asp:Content>
+

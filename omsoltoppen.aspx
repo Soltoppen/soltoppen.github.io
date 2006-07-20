@@ -1,7 +1,5 @@
-<!--#include file="inc_top_head.inc"-->
-<!--#include file="inc_top.inc"-->
-<!--#include file="inc_menu.inc"-->
-
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 			<div id="Header1" class="Header">Om Soltoppen</div>
 			<div id="ContentColumn1" class="ContentColumn">
@@ -41,6 +39,6 @@ Barnehagens navn er  Soltoppen Barnehage AS og er privateid.
                         <li>Lov om  internkontroll.</li>
                       </ul>
 			</div>
+			
+</asp:Content>
 
-    			
-<!--#include file="inc_bottom.inc"-->    			

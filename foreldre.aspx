@@ -1,6 +1,5 @@
-<!--#include file="inc_top_head.inc"-->
-<!--#include file="inc_top.inc"-->
-<!--#include file="inc_menu.inc"-->
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 			<div id="Header1" class="Header">Foreldresiden</div>
 			<div id="ContentColumn1" class="ContentColumn">
@@ -55,4 +54,6 @@
     <li>Barnehagen har  adresser til firmaer som leverer merkemateriale.</li>
   </ul>
 			</div>
-<!--#include file="inc_bottom.inc"-->    			
+			
+</asp:Content>
+

@@ -1,8 +1,7 @@
-<!--#include file="inc_top_head.inc"-->
-<!--#include file="inc_top.inc"-->
-<!--#include file="inc_menu.inc"-->
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-			<div id="Header1" class="Header">Kontakt oss</div>
+		<div id="Header1" class="Header">Kontakt oss</div>
 			<div id="ContentColumn1" class="ContentColumn">
 	<h1>Kontaktinformasjon Soltoppen Barnehage </h1>
 							<br />
@@ -34,7 +33,6 @@
 			<div id="ContentColumn2" class="ContentColumn">
 							<img src="images/haneholmveien126.jpg" width="300" height="223" alt="Soltoppen" />			
 			</div>
-
 			
-    			
-<!--#include file="inc_bottom.inc"-->    			
+</asp:Content>
+

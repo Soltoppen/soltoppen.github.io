@@ -1,6 +1,6 @@
-<!--#include file="inc_top_head.inc"-->
-<!--#include file="inc_top.inc"-->
-<!--#include file="inc_menu.inc"-->
+<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+
 			<div id="Header1" class="Header">Velkommen</div>
 			<div id="ContentColumn1" class="ContentColumn">
 					<h1>Velkommen til  Soltoppen Barnehage</h1>
@@ -29,5 +29,6 @@
 					</h1>
 						Soltoppen Barnehage annonserer for tiden i Sandefjords Blad. F&oslash;rste annonse vil v&aelig;re p&aring; trykk l&oslash;rdag 5. november. Trykk p&aring; bildet til venstre for &aring; se st&oslash;rre versjon av annonsen. 
 			</div>
-    			
-<!--#include file="inc_bottom.inc"-->    			
+
+</asp:Content>
+
