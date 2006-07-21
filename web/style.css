@@ -54,18 +54,6 @@ li {
 	width: 900px;
 }
 
-#Top{
-	width: 100%;
-	height: 191px;
-	background:url(images/design/Top.gif);
-	background-repeat:no-repeat;	
-}
-
-#Top_P{
-	width: 100%;
-	height: 10px;
-}
-
 #Bottom{
 	width: 100%;
 	height: 144px;
@@ -134,6 +122,29 @@ li {
 #Meny a:hover{
 	color: #FFF495;
 
+}
+#Status
+{
+    float: right;
+    padding-right: 40px;
+    font-size: 80%;
+    color: dimgray;
+}
+
+#Top{
+	width: 100%;
+	height: 191px;
+	background:url(images/design/Top.gif);
+	background-repeat:no-repeat;	
+}
+
+#Top_P{
+	width: 100%;
+	height: 10px;
+}
+
+#TopSpacer{
+	height: 165px;
 }
 
 .vedtekter {

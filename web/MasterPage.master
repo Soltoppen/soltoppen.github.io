@@ -31,7 +31,10 @@
 <div id="Page">
 
 	<div id="Top">
+    <div id="TopSpacer"></div>
+	<div id="Status">Innlogget: <asp:LoginName ID="LoginName1" runat="server" /></div>
 	</div>
+
 	
 	<div id="Main">
 			<div id="Meny">
