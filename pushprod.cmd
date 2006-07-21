@@ -1,0 +1,1 @@
+robocopy "." "\\server\d$\WWW\wwwroot\www.soltoppenbarnehage.no" *.* /XF "*.cmd" /XD ".bzr" /E /MIR /COPYALL /TEE
