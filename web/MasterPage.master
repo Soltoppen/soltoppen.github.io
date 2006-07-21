@@ -1,14 +1,10 @@
-<%@ Master Language="C#" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage2" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<script runat="server">
-
-</script>
-
 <html xmlns="http://www.w3.org/1999/xhtml" lang="no" xml:lang="no">
 <!-- Copyright 2000-2006 by Soltoppen Barnehage AS. All rights reserved. -->
-<head runat="server">
+<head id="Head1" runat="server">
     <meta name="Description" content="Soltoppen Barnehage har en solrik og flott beliggenhet på landet. Soltoppen ligger på Lystad i Sandefjord."/>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <meta name="KeyWords" content="soltoppen, sol, toppen, topp, barnehage, barnehager, barn, hage, gøy, landet, natur, dyr, skog, skolen, skole, kommune, lek, leker, sandefjord, ranvik, lystad, store bergan, hystad, virik, granholmen, vestfold "/>
@@ -26,31 +22,31 @@
         urchinTracker();
     </script>
 </head>
-<body class="body">
+<body class="body"><form id="f_master" runat="server">
 
 <div id="Page">
 
 	<div id="Top">
     <div id="TopSpacer"></div>
-	<div id="Status">Innlogget: <asp:LoginName ID="LoginName1" runat="server" /></div>
+	<div id="Status">
+        <asp:Label ID="lLoginName" runat="server"></asp:Label>
+    </div>
 	</div>
 
 	
 	<div id="Main">
 			<div id="Meny">
-			<div id="MenyLink1"><img src="/images/design/spacer.gif" alt="" width="20" height="27" /><a href=".">Velkommen</a><br /></div>
+			<div id="MenyLink1"><img src="/images/design/spacer.gif" alt="" width="20" height="27" /><a href="/">Velkommen</a><br /></div>
 			<div id="MenyLink2"><img src="/images/design/spacer.gif" alt="" width="22" height="27" /><a href="omsoltoppen.aspx">Om Soltoppen</a><br /></div>
 			<div id="MenyLink3"><img src="/images/design/spacer.gif" alt="" width="24" height="27" /><a href="soknadsskjema.aspx">Søknadsskjema</a><br /></div>
 			<div id="MenyLink4"><img src="/images/design/spacer.gif" alt="" width="26" height="27" /><a href="foreldre.aspx">Foreldresiden</a><br /></div>
 			<div id="MenyLink5"><img src="/images/design/spacer.gif" alt="" width="28" height="27" /><a href="kontakt.aspx">Kontakt oss</a><br /></div>
 			<!--<img src="images/design/spacer.gif" width="30" height="27" /><a href="vedtekter.asp" class="meny">Vedtekter</a><br />-->
 		    </div>
-    <form id="form1" runat="server">
     <div>
         <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
         </asp:contentplaceholder>
     </div>
-    </form>
 	</div>
 	
 <div id="Bottom" >
@@ -63,7 +59,8 @@
 </div>
 
 
-
+</form>
 </body>
 </html>
+
 
