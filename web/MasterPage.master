@@ -31,6 +31,9 @@
 	<div id="Status">
         <asp:Label ID="lLoginName" runat="server"></asp:Label>
     </div>
+    <div id="LogInStatus">
+        <asp:LoginStatus ID="LoginStatus" runat="server" />
+    </div>
 	</div>
 
 	

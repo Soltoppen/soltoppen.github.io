@@ -9,16 +9,10 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
-public partial class MasterPage2 : System.Web.UI.MasterPage
+public partial class intra_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        if (Page.User.Identity.IsAuthenticated)
-            lLoginName.Text = "Innlogget: " + Page.User.Identity.Name.ToString();
 
-        LoginStatus.LoginText = ""; //  "Logg inn"; -> Removed for the time being. 
-        LoginStatus.LogoutText = "Logg ut";
-        
     }
-
 }

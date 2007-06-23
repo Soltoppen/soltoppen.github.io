@@ -125,6 +125,14 @@ li {
 }
 #Status
 {
+    float: left;
+    padding-left: 240px;
+    font-size: 80%;
+    color: #696969;
+}
+
+#LogInStatus
+{
     float: right;
     padding-right: 40px;
     font-size: 80%;
