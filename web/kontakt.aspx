@@ -1,7 +1,7 @@
 <%@ Page Language="C#" MasterPageFile="~/MasterPage.master" Title="Untitled Page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-		<div id="Header1" class="Header">Kontakt oss</div>
+			<div id="Header1" class="Header">Kontakt oss</div>
 			<div id="ContentColumn1" class="ContentColumn">
 	<h1>Kontaktinformasjon Soltoppen Barnehage </h1>
 							<br />
@@ -14,19 +14,20 @@
 							Haneholmveien 126 <br />
 							3209 Sandefjord<br />
 							<br /> 
+							<h1>Telefon: </h1><br />
+							33 47 52 38<br />
+							<br />
 							<h1>E-post adresse: </h1><br />
 							<a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no<br />
 							<br />
 							</a>
 							<h1>Kontaktpersoner</h1>
 							<br />
-	Anne Kristine H Dalgleish <br />
-	Mobil: 924 92 755<br />
-	E-post: <a href="mailto:anki@soltoppenbarnehage.no">anki@soltoppenbarnehage.no</a> <br />
-	<br />
-	Miriam Aasheim <br />
-	Mobil: 411 42 031<br />
-	E-post: <a href="mailto:miriam@soltoppenbarnehage.no">miriam@soltoppenbarnehage.no</a>                      
+	Anne Eva Haugland<br />
+	Styrer<br/>
+	Telefon: 33 47 52 38<br />
+	E-post: <a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no</a><br />
+                  
 
 			</div>
 			

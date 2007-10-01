@@ -53,7 +53,7 @@
     <li>Parkdresser,  st&oslash;vler og regnt&oslash;y plasseres i yttergarderoben/grovgarderobe.</li>
     <li>Barnehagen har  adresser til firmaer som leverer merkemateriale.</li>
   </ul>
-			</div>
+			</div>			
 			
 </asp:Content>
 
