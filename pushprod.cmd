@@ -1,1 +1,1 @@
-robocopy "web" "\\server\d$\WWW\wwwroot\www.soltoppenbarnehage.no" *.* /XF "*.cmd" /XD ".bzr" /E /MIR /COPYALL /TEE
+robocopy "web" "\\server\d$\WWW\wwwroot\www.soltoppenbarnehage.no" *.* /MIR /XF "*.cmd" /XD ".bzr" "intra"
