@@ -16,6 +16,7 @@
 			<a href="downloads/planer/Uke_40.pdf" target="_blank">Ukeplan uke 40</a> <br/><br/>
 			<a href="downloads/planer/Uke_41.pdf" target="_blank">Ukeplan uke 41</a> <br/><br/>
 			<a href="downloads/planer/Uke_42.pdf" target="_blank">Ukeplan uke 42</a> <br/><br/>
+			<a href="downloads/planer/Uke_43.pdf" target="_blank">Ukeplan uke 43</a> <br/><br/>
                         
    	</div>
 			
