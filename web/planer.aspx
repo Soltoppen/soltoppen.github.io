@@ -9,15 +9,21 @@
       <a href="downloads/planer/plan-halvar1.pdf" target="_blank">Halvårsplan 1 2007</a> <br/><br/>
 			<a href="downloads/planer/plan-januar.pdf" target="_blank">Månedsplan januar 2007</a> <br/><br/>
 			
+  		<h1>Måneds brev Oktober 2007</h1>
+                        <br /><br />
+
+      <a href="downloads/planer/brev_OKTOBER-07.pdf" target="_blank">Måneds brev Oktober 2007</a> <br/><br/>
+			
 			<h1>Ukeplaner</h1>
                         <br /><br />
 
-      <a href="downloads/planer/Uke_39.pdf" target="_blank">Ukeplan uke 39</a> <br/><br/>
-			<a href="downloads/planer/Uke_40.pdf" target="_blank">Ukeplan uke 40</a> <br/><br/>
-			<a href="downloads/planer/Uke_41.pdf" target="_blank">Ukeplan uke 41</a> <br/><br/>
-			<a href="downloads/planer/Uke_42.pdf" target="_blank">Ukeplan uke 42</a> <br/><br/>
+			<a href="downloads/planer/Uke_44.pdf" target="_blank">Ukeplan uke 44</a> <br/><br/>
 			<a href="downloads/planer/Uke_43.pdf" target="_blank">Ukeplan uke 43</a> <br/><br/>
-                        
+			<a href="downloads/planer/Uke_42.pdf" target="_blank">Ukeplan uke 42</a> <br/><br/>
+			<a href="downloads/planer/Uke_41.pdf" target="_blank">Ukeplan uke 41</a> <br/><br/>
+			<a href="downloads/planer/Uke_40.pdf" target="_blank">Ukeplan uke 40</a> <br/><br/>
+      <a href="downloads/planer/Uke_39.pdf" target="_blank">Ukeplan uke 39</a> <br/><br/>
+			                        
    	</div>
 			
 			
