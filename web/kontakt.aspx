@@ -23,7 +23,7 @@
 							</a>
 							<h1>Kontaktpersoner</h1>
 							<br />
-	Anne Eva Haugland<br />
+	Lene Reiersen<br />
 	Styrer<br/>
 	Telefon: 33 47 52 38<br />
 	E-post: <a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no</a><br />

@@ -16,10 +16,10 @@
         <ul>
                       <li>Barnehagen  &aring;pner kl 07.15 og stenger 16.30 hver dag.</li>
                       <li>Barnehagens  kjernetid er fra kl 10.00-14.00 hver dag.</li>
-                      <li>Barnehagen  holder stengt ved offentlige h&oslash;ytidsdager, samt lille julaften 23.12.</li>
-                      <li>Dagen f&oslash;r  skj&aelig;rtorsdag stenger vi kl 12.00.</li>
-                      <li>Barnehagen  holder stengt i romjulen.</li>
-                      <li>Barnehagen  holder stengt 4 uker i juli mnd.</li>
+                      <li>Barnehagen holder stengt ved offentlige h&oslash;ytidsdager, samt lille julaften 23.12.</li>
+                      <li>Barnehagen holder stengt onsdagen f&oslash;r skj&aelig;rtorsdag.</li>
+                      <li>Barnehagen holder stengt i romjulen.</li>
+                      <li>Barnehagen holder stengt 4 uker i juli mnd.</li>
                       <li>Det er  lagt opp til 5 planleggingsdager i &aring;ret.</li>
                     </ul>
 					
@@ -32,7 +32,7 @@
                       <h1>Eierforhold:</h1>
                       <br />
 Barnehagens navn er  Soltoppen Barnehage AS og er privateid. 
-                Eiere er Miriam  Aasheim, Anne Kristine H Dalgleish og Kenneth Dalgleish. <br />
+                Eiere er Miriam  Aasheim, Anne Kristine H Dalgleish, Tom Pettersen og Kenneth Dalgleish. <br />
                       <br />
                       <h1>Form&aring;l</h1>
                       <ul>
