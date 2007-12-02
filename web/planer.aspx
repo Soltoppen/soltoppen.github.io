@@ -6,13 +6,16 @@
 			<h1>Halvårsplan og månedsplaner</h1>
                         <br /><br />
 
+			<a href="downloads/planer/manedsplan_12_2007.pdf" target="_blank">Månedsplan desember 2007</a> <br/><br/>
       <a href="downloads/planer/plan-halvar1.pdf" target="_blank">Halvårsplan 1 2007</a> <br/><br/>
-			<a href="downloads/planer/plan-januar.pdf" target="_blank">Månedsplan januar 2007</a> <br/><br/>
+			<a href="downloads/planer/manedsplan_01_2007.pdf" target="_blank">Månedsplan januar 2007</a> <br/><br/>
 			
-  		<h1>Måneds brev Oktober 2007</h1>
+  		<h1>Månedsbrev</h1>
                         <br /><br />
 
-      <a href="downloads/planer/brev_OKTOBER-07.pdf" target="_blank">Måneds brev Oktober 2007</a> <br/><br/>
+			<a href="downloads/planer/brev_12-07.pdf" target="_blank">Månedsbrev Desember 2007</a> <br/><br/>
+      <a href="downloads/planer/brev_10-07.pdf" target="_blank">Månedsbrev Oktober 2007</a> <br/><br/>
+           
 			
 			<h1>Ukeplaner</h1>
                         <br /><br />
