@@ -14,9 +14,13 @@
 
       <a href="downloads/planer/brev_OKTOBER-07.pdf" target="_blank">Måneds brev Oktober 2007</a> <br/><br/>
 			
-			<h1>Ukeplaner</h1>
+			<h1>Ukeplaner 2008</h1>
                         <br /><br />
 
+			<a href="downloads/planer/Uke_03.pdf" target="_blank">Ukeplan uke 03</a> <br/><br/>
+			
+			<h1>Ukeplaner 2007</h1>
+												<br /><br />
 			<a href="downloads/planer/Uke_48.pdf" target="_blank">Ukeplan uke 48</a> <br/><br/>
 			<a href="downloads/planer/Uke_47.pdf" target="_blank">Ukeplan uke 47</a> <br/><br/>
       <a href="downloads/planer/Uke_46.pdf" target="_blank">Ukeplan uke 46</a> <br/><br/>
