@@ -1,1 +1,0 @@
-robocopy "." "\\server\d$\source\WWW\www.soltoppenbarnehage.no" *.* /E /MIR /COPYALL /TEE

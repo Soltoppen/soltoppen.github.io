@@ -1,1 +1,0 @@
-robocopy "web" "\\server\d$\WWW\wwwroot\test.soltoppenbarnehage.no" *.* /MIR /XF "*.cmd" /XD ".bzr" "intra"
