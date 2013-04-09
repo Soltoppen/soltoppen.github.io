@@ -1,69 +1,115 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Soltoppen.github.io : " />
+<html xmlns="http://www.w3.org/1999/xhtml" lang="no" xml:lang="no">
+<!-- Copyright 2000-2006 by Soltoppen Barnehage AS. All rights reserved. -->
+<head>
+<meta name="Description" content="Soltoppen Barnehage har en solrik og flott beliggenhet på landet. Soltoppen ligger på Lystad i Sandefjord."/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="KeyWords" content="soltoppen, sol, toppen, topp, barnehage, barnehager, barn, hage, gøy, landet, natur, dyr, skog, skolen, skole, kommune, lek, leker, sandefjord, ranvik, lystad, store bergan, hystad, virik, granholmen, vestfold "/>
+<meta name="robots" content="index,follow" />
+<meta name="copyright" content="Copyright © 2000-2005 by Soltoppen Barnehage AS. All rights reserved." />
+<meta http-equiv="Content-type" content="text/html;charset=ISO-8859-1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js">  </script>
+<script type="text/javascript" src="js/jquery.ba-hashchange.min.js">  </script>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<title>Soltoppen Barnehage Sandefjord</title>
 
-    <title>Soltoppen.github.io</title>
-  </head>
+<script type="text/javascript">
+<!--
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Soltoppen">View on GitHub</a>
-
-          <h1 id="project_title">Soltoppen.github.io</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+$(function(){
+  
+  $(window).hashchange( function(){
+    var hash = location.hash;
+    var normalizedHash = hash.replace( /^#/, '' );
+    // Set the page title based on the hash.
+    document.title = 'Soltoppen Barnehage - ' + ( normalizedHash.replace('_', ' ') || 'Velkommen' );
     
+	if (normalizedHash) {
+		$('#content').load(normalizedHash + '.inc');
+	};
+  })
+  
+  $(window).hashchange();
+  
+});
 
-  </body>
+</script>
+
+</head>
+
+<body class="body"><form id="f_master" runat="server">
+
+<div id="Page">
+
+	<div id="Top">
+    <div id="TopSpacer"></div>
+	</div>
+
+	
+	<div id="Main">
+		<div id="Meny">
+			<div id="MenyLink1"><img src="images/design/spacer.gif" alt="" width="20" height="27" /><a class="link" href="index.html">Velkommen</a><br /></div>
+			<div id="MenyLink2"><img src="images/design/spacer.gif" alt="" width="22" height="27" /><a class="link" href="#Om_Soltoppen">Om Soltoppen</a><br /></div>			
+			<div id="MenyLink3"><img src="images/design/spacer.gif" alt="" width="24" height="27" /><a class="link" href="#Soknadsskjema">Søknadsskjema</a><br /></div>
+			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><a class="link" href="#Foreldresiden">Foreldresiden</a><br /></div>
+			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><a class="link" href="#Planer">Planer</a><br /></div>
+			<div id="MenyLink5"><img src="images/design/spacer.gif" alt="" width="28" height="27" /><a class="link" href="#Kontakt_oss">Kontakt oss</a><br /></div>
+			<!--<img src="images/design/spacer.gif" width="30" height="27" /><a href="vedtekter.aspx" class="meny">Vedtekter</a><br />-->
+		</div>
+    <div>
+	
+	
+	
+	
+	
+	<div id="content">
+	
+				<div id="Header1" class="Header">Velkommen</div>
+			<div id="ContentColumn1" class="ContentColumn">
+					<h1>Velkommen til  Soltoppen Barnehage</h1>
+					<br />
+					Soltoppen Barnehage  har en solrik og flott beliggenhet p&aring; landet. Soltoppen ligger p&aring; Lystad i Sandefjord, med fem m&aring;l tomt grenser vi til  landbruk og friluftsomr&aring;der. Flere hundre sauer &oslash;nsker barn velkomne som n&aelig;rmeste nabo. <br />
+					<br />
+					Den store  naturtomten byr p&aring; fysiske utfordringer,  spennende opplevelser og mange fine gjemmesteder.
+					Her er det tr&aelig;r &aring; klatre i, bakker &aring; ake i, og sammen skal vi lage en liten kj&oslash;kkenhage. Her kan vi dyrke urter og gr&oslash;nnsaker. <br />
+					<br />
+				    - Her blir det g&oslash;y p&aring; landet! <br />
+			</div>
+			<div id="ContentColumn2" class="ContentColumn">
+					<img src="images/CRW_5032.jpg" alt="Soltoppen Barnehage" width="300" height="199" />
+			</div>
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	</div>
+	</div>
+	
+<div id="Bottom" >
+<img src="images/design/Bottom.gif" width="901" height="144" border="0" alt="" usemap="#Bottom_Map"/>
+<map name="Bottom_Map" id="bottom_map">
+<area shape="rect" alt="Soltoppen kontaktinformasjon" coords="356,72,612,135" href="kontakt.aspx"/>
+</map>
+</div>
+		
+</div>
+</form>
+
+<script src="js/taglinks.js" type="text/javascript"></script>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+  _uacct = "UA-54086-1";
+  urchinTracker();
+</script>
+
+</body>
 </html>
