@@ -29,7 +29,7 @@ $(function(){
     document.title = 'Soltoppen Barnehage - ' + ( normalizedHash.replace('_', ' ') || 'Velkommen' );
     
 	if (normalizedHash) {
-		$('#content').load(normalizedHash + '.inc');
+		$('#content').load(normalizedHash.toLowerCase() + '.inc');
 	};
   })
   
