@@ -114,12 +114,15 @@ li {
 }
 
 
-#Meny a{
+#Meny .link{
 	color: #ffe600;
 	text-decoration:none;
+	cursor: pointer;
+	cursor: hand;
+	display:inline;
 }
 
-#Meny a:hover{
+#Meny .link:hover{
 	color: #FFF495;
 
 }
