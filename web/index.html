@@ -13,15 +13,30 @@
 <meta name="MSSmartTagsPreventParsing" content="true" />
 <link href="style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.9.1.min.js">  </script>
+<script type="text/javascript" src="js/jquery.ba-hashchange.min.js">  </script>
+
 <title>Soltoppen Barnehage Sandefjord</title>
 
 <script type="text/javascript">
 <!--
-   function changePage(url) {
-		window.location.hash = url.replace('.inc', '');
-		$('#content').load(url);
-   }
- // -->
+
+$(function(){
+  
+  $(window).hashchange( function(){
+    var hash = location.hash;
+    var normalizedHash = hash.replace( /^#/, '' );
+    // Set the page title based on the hash.
+    document.title = ( normalizedHash || 'Velkommen' ) + '.';
+    
+	if (normalizedHash) {
+		$('#content').load(normalizedHash + '.inc');
+	};
+  })
+  
+  $(window).hashchange();
+  
+});
+
 </script>
 
 </head>
@@ -38,11 +53,11 @@
 	<div id="Main">
 		<div id="Meny">
 			<div id="MenyLink1"><img src="images/design/spacer.gif" alt="" width="20" height="27" /><a class="link" href="index.html">Velkommen</a><br /></div>
-			<div id="MenyLink2"><img src="images/design/spacer.gif" alt="" width="22" height="27" /><div class="link" OnClick="changePage('omsoltoppen.inc')" >Om Soltoppen</div><br /></div>
-			<div id="MenyLink3"><img src="images/design/spacer.gif" alt="" width="24" height="27" /><div class="link" OnClick="changePage('soknadsskjema.inc')" >Søknadsskjema</div><br /></div>
-			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><div class="link" OnClick="changePage('foreldre.inc')" >Foreldresiden</div><br /></div>
-			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><div class="link" OnClick="changePage('planer.inc')" >Planer</div><br /></div>
-			<div id="MenyLink5"><img src="images/design/spacer.gif" alt="" width="28" height="27" /><div class="link" OnClick="changePage('kontakt.inc')" >Kontakt oss</div><br /></div>
+			<div id="MenyLink2"><img src="images/design/spacer.gif" alt="" width="22" height="27" /><a class="link" href="#omsoltoppen">Om Soltoppen</a><br /></div>			
+			<div id="MenyLink3"><img src="images/design/spacer.gif" alt="" width="24" height="27" /><a class="link" href="#soknadsskjema">Søknadsskjema</a><br /></div>
+			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><a class="link" href="#foreldre">Foreldresiden</a><br /></div>
+			<div id="MenyLink4"><img src="images/design/spacer.gif" alt="" width="26" height="27" /><a class="link" href="#planer">Planer</a><br /></div>
+			<div id="MenyLink5"><img src="images/design/spacer.gif" alt="" width="28" height="27" /><a class="link" href="#kontakt">Kontakt oss</a><br /></div>
 			<!--<img src="images/design/spacer.gif" width="30" height="27" /><a href="vedtekter.aspx" class="meny">Vedtekter</a><br />-->
 		</div>
     <div>
