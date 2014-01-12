@@ -5,7 +5,7 @@
                         <br />
                         Sandefjord Kommune organiserer opptak i både kommunale og private barnehager gjennom ett felles søknadsskjema. 
                         Søknadsskjemaet fylles ut elektronisk, og du finner den her:<br/><br/>
-                        <a href="https://www.sandefjord.kommune.no/Barnehage/bhage_ny.nsf/ApplicationNew?OpenForm" target="_blank">Søknadsskjema for barnehageplass</a> <br /><br/>
+                        <a href="https://sandefjord.ist-asp.com " target="_blank">Søknadsskjema for barnehageplass</a> <br /><br/>
                         
    	</div>
 			
