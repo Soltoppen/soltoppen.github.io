@@ -9,7 +9,7 @@ body {
 }
 
 .body {
-	background-image: url(images/design/Page-Background-Tile.gif);
+	background-image: url(images/design/Page-Background-Tile.png);
 	background-repeat: repeat-x;
 	background-color: #008800;
 }
@@ -145,7 +145,7 @@ li {
 #Top{
 	width: 100%;
 	height: 191px;
-	background:url(images/design/Top.gif);
+	background:url(images/design/Top.png);
 	background-repeat:no-repeat;	
 }
 
