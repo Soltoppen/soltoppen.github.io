@@ -11,7 +11,6 @@
 			  Soltoppen &oslash;nsker &aring; markere f&oslash;lgende dager:<br />	  
 				<ul>
 			    <li> F&oslash;dselsdager</li>
-			    <li>Måneskinnstur i november</li>
 			    <li>Advent og juleforberedelser</li>
 			    <li>Lucia</li>
 			    <li>Nissefest</li>
