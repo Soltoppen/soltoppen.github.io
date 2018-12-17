@@ -20,14 +20,6 @@
 							<a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no<br />
 							<br />
 							</a>
-							<h1>Kontaktpersoner</h1>
-							<br />
-	Anne Eva Haugland<br />
-	Styrer<br/>
-	Telefon: 33 47 52 38<br />
-	E-post: <a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no</a><br />
-                  
-
 			</div>
 			
 			<div id="ContentColumn2" class="ContentColumn">
