@@ -4,6 +4,6 @@
 			<h1>Årsplan</h1>
                         <br /><br />
 
-			<a href="downloads/planer/Soltoppen Årsplan - 2018-2019.pdf" target="_blank">Soltoppen Årsplan - 2018-2019</a> <br/><br/>
+			<a href="downloads/planer/Soltoppen Årsplan - 2019-2020.pdf" target="_blank">Soltoppen Årsplan - 2019-2020</a> <br/><br/>
     
 			
