@@ -2,8 +2,7 @@
 			<div id="ContentColumn1" class="ContentColumn">
 			<h1>Om Soltoppen Barnehage AS </h1><br />
         	Soltoppen er en èn avdelings barnehage, med plass til ca 21  barn i alder 0-6 &aring;r. 
-        	Soltoppen har et flott uteomr&aring;de, hvor det skal 
-        	opparbeides egen b&aring;lplass.<br /><br />
+        	Soltoppen har et flott uteomr&aring;de.<br /><br />
 	        Ved opptak av barn  vil vi sette opp barnegruppen, slik at det blir best mulig fordeling p&aring; alder  og kj&oslash;nn.
                 V&aring;rt &oslash;nske er at  Soltoppen skal v&aelig;re et godt sted &aring; v&aelig;re for barn og voksne, der vi har respekt  for hverandre. Barna skal f&aring; oppleve n&aelig;rhet, trygghet og omsorg for sm&aring; og  store.<br /><br /><br />
 
@@ -16,7 +15,7 @@
                       <li>Barnehagen holder stengt ved offentlige h&oslash;ytidsdager, samt lille julaften 23.12.</li>
                       <li>Barnehagen holder stengt onsdagen f&oslash;r skj&aelig;rtorsdag.</li>
                       <li>Barnehagen holder stengt i romjulen.</li>
-                      <li>Barnehagen holder stengt 4 uker i juli mnd.</li>
+                      <li>Barnehagen holder stengt i uke 29,30 og 31</li>
                       <li>Det er  lagt opp til 7 planleggingsdager i &aring;ret.</li>
                     </ul>
 					
