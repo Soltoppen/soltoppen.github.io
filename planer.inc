@@ -4,6 +4,10 @@
 			<h1>Årsplan</h1>
                         <br /><br />
 
-			<a href="downloads/planer/Soltoppen Årsplan - 2019-2020.pdf" target="_blank">Soltoppen Årsplan - 2019-2020</a> <br/><br/>
+			<a href="downloads/planer/Soltoppen Årsplan - 2020-2021.pdf" target="_blank">Soltoppen Årsplan - 2020-2021</a> <br/><br/>
     
-			
+			<h1>Progresjonsplan</h1>
+                        <br /><br />
+
+			<a href="downloads/planer/PROGRESJONSPLAN FOR SOLTOPPEN BARNEHAGE.pdf" target="_blank">Progresjonsplan for Soltoppen Barnehage</a> <br/><br/>
+    			
