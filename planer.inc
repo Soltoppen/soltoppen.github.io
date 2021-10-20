@@ -4,7 +4,7 @@
 			<h1>Årsplan</h1>
                         <br /><br />
 
-			<a href="downloads/planer/Soltoppen Årsplan - 2020-2021.pdf" target="_blank">Soltoppen Årsplan - 2020-2021</a> <br/><br/>
+			<a href="downloads/planer/Soltoppen Årsplan - 2021-2022.pdf" target="_blank">Soltoppen Årsplan - 2021-2022</a> <br/><br/>
     
 			<h1>Progresjonsplan</h1>
                         <br /><br />
