@@ -14,7 +14,6 @@
 			    <li>Advent og juleforberedelser</li>
 			    <li>Lucia</li>
 			    <li>Nissefest</li>
-			    <li>Karneval</li>
 			    <li> P&aring;skelunsj</li>
 			    <li>17 mai</li>
 			    <li>FN-dagen/H&oslash;stfest</li>

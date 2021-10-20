@@ -16,6 +16,12 @@
 							<h1>Telefon: </h1><br />
 							33 47 52 38<br />
 							<br />
+							<h1>Direkte til avdeling: </h1><br />
+							90 54 47 37<br />
+							<br />
+							<h1>Direkte til kontor: </h1><br />
+							48 12 29 55<br />
+							<br />
 							<h1>E-post adresse: </h1><br />
 							<a href="mailto:post@soltoppenbarnehage.no">post@soltoppenbarnehage.no<br />
 							<br />
